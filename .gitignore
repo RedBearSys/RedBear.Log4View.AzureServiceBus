@@ -7,7 +7,7 @@
 
 # Installer
 *.msi
-AzureServiceBus-cache
+Plugin-cache
 
 # User-specific files
 *.suo
