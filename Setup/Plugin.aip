@@ -4,6 +4,7 @@
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
     <ROW Property="AI_MINDOTNETVERSION" MultiBuildValue="DefaultBuild:4.5" ValueLocId="-"/>
     <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARMDisplayName" Value="Azure Service Bus Plugin for Log4View 1.0.0.188"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="Manufacturer" Value="Red Bear Systems Limited"/>
     <ROW Property="ProductCode" Value="2057:{BF016A73-1D4A-4401-B8C3-C152D7DF6A90} " Type="16"/>
@@ -42,6 +43,7 @@
   <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
     <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
     <ROW Path="&lt;AI_DICTS&gt;ui_en_GB.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
     <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
