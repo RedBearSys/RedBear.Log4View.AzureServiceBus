@@ -10,7 +10,7 @@ Our reasoning for taking this approach is that a user should be able to clone th
 
 We have taken care not to include any files that aren't already available without payment (e.g. in demonstration versions of the software).
 
-Should you still have any concerns with regards to the content of this folder, please [create an issue](https://github.com/RedBearSys/RedBear.Log4View.JsonDashboard/issues/new) and we'll respond as soon as we can.
+Should you still have any concerns with regards to the content of this folder, please [create an issue](https://github.com/RedBearSys/RedBear.Log4View.AzureServiceBus/issues/new) and we'll respond as soon as we can.
 
 ## Dependencies included
-* `Log4View.exe` - [Log4View](http://www.log4view.com/), © 2016 PROSA GmbH - professionals and software applications
+* `Log4View.exe` - [Log4View](http://www.log4view.com/), Â© 2016 PROSA GmbH - professionals and software applications
