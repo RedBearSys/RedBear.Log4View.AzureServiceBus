@@ -11,7 +11,7 @@ before_build:
 build:
   verbosity: minimal
 after_build:
-- cmd: copy src\RedBear.Log4View.AzureServiceBusReceiver.Setup\bin\Debug\RedBear.Log4View.AzureServiceBusReceiver.Setup.msi .\RedBear.Log4View.AzureServiceBusReceiver.Setup.msi
+- cmd: copy src\RedBear.Log4View.AzureServiceBusReceiver.Setup\bin\Release\RedBear.Log4View.AzureServiceBusReceiver.Setup.msi .\RedBear.Log4View.AzureServiceBusReceiver.Setup.msi
 notifications:
 - provider: Slack
   incoming_webhook:
