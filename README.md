@@ -1,13 +1,15 @@
 # RedBear.Log4View.AzureServiceBus
 A [Log4View](http://www.log4view.com/) plugin that reads log entries from a topic on an Azure Service Bus.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/rl8kfyayjinrlaci/branch/master?svg=true)](https://ci.appveyor.com/project/redbear/redbear-log4view-azureservicebus/branch/master)
+
 The benefits of using this receiver compared to using Log4View's built-in TCP or UDP receivers include:
 
 * unlimited users can monitor the same log at the same time without you needing to touch the production application's configuration;
 * there's no need to punch holes in firewalls or map external ports to internal ports; developers can choose which logs to stream without IT involvement.
 
 ## Getting Started
-Either build the code yourself or install using [this installer](https://rbpublic.blob.core.windows.net/log4view/azure-plugin-setup.msi). The plugin must be installed into the "Log4View" folder in "Program Files (x86)" together with Microsoft.ServiceBus.dll.
+Either build the code yourself or install using [this installer](https://rbpublic.blob.core.windows.net/log4view/RedBear.Log4View.AzureServiceBusReceiver.Setup.msi). The plugin must be installed into the "Log4View" folder in "Program Files (x86)" together with Microsoft.ServiceBus.dll.
 
 A new receiver can be created by going to ```Settings > Edit Configuration``` within Log4View and then choosing "Azure Service Bus Receiver" from the ```Add``` button-menu.
 
