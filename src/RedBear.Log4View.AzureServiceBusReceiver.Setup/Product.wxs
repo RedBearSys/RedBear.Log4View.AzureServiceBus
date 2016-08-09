@@ -35,6 +35,7 @@
     <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
       <Component Id="ProductComponent" Guid="">
         <File Id="MainFile" Source="$(var.AzureServiceBusReceiver.TargetPath)" />
+        <File Id="ServiceBus" Source="$(var.AzureServiceBusReceiver.TargetDir)\Microsoft.ServiceBus.dll" />
       </Component>
     </ComponentGroup>
   </Fragment>
